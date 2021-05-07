@@ -18,6 +18,7 @@ function App() {
             component={ MovieList }
           />
           <Route
+            exact
             path="/movies/new"
             render={ (props) => <NewMovie { ...props } /> }
           />
